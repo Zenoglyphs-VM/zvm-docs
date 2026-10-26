@@ -12,6 +12,7 @@ should not be scattered across them.
 | [spec/DECISIONS.md](spec/DECISIONS.md) | what was chosen, the prior art, and what reversing it costs |
 | [planning/UPGRADES.md](planning/UPGRADES.md) | how a rule change reaches every node |
 | [planning/FUTURE.md](planning/FUTURE.md) | improvements not yet decided |
+| [governance/](governance/) | proposed contribution, private disclosure and release responsibilities; not adopted authority |
 | [operations/](operations/) | deploying, halts, plasma, the committee, public hostnames |
 | [benchmarks/](benchmarks/) | the method and every run's tables |
 
@@ -19,3 +20,5 @@ Numbers measured before 2026-09-16 were taken on op-geth, on chains since
 re-genesised. They are history, not a baseline.
 
 MIT licence. The full guide, with how it works and why: [GUIDE.md](GUIDE.md).
+
+[Source and benchmark evidence](EVIDENCE.md) records the current reference pins, historical raw-data gaps and documentation qualification limits.

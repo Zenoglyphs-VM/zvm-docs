@@ -1,0 +1,501 @@
+{
+  "schema": 1,
+  "documents": [
+    "ARCHITECTURE.md",
+    "EVIDENCE.md",
+    "GUIDE.md",
+    "README.md",
+    "SECURITY.md",
+    "benchmarks/BENCHMARK.md",
+    "benchmarks/results/FLEET-v1.md",
+    "benchmarks/results/FLEET-v2.md",
+    "benchmarks/results/FLEET.md",
+    "benchmarks/results/RESULTS-reth-v1.md",
+    "benchmarks/results/RESULTS-reth-v2.md",
+    "benchmarks/results/RESULTS-v1-fixed.md",
+    "benchmarks/results/RESULTS-v1.md",
+    "benchmarks/results/RESULTS-v2-fixed.md",
+    "benchmarks/results/RESULTS-v2.md",
+    "benchmarks/results/RESULTS.md",
+    "governance/DISCLOSURE.md",
+    "governance/README.md",
+    "governance/RELEASE.md",
+    "governance/organization-defaults/.github/ISSUE_TEMPLATE/bug_report.md",
+    "governance/organization-defaults/.github/ISSUE_TEMPLATE/proposal.md",
+    "governance/organization-defaults/.github/PULL_REQUEST_TEMPLATE.md",
+    "governance/organization-defaults/CONTRIBUTING.md",
+    "governance/organization-defaults/SECURITY.md",
+    "governance/organization-defaults/SUPPORT.md",
+    "operations/CDN.md",
+    "operations/COMMITTEE.md",
+    "operations/DEPLOY-DEVNET.md",
+    "operations/HALT.md",
+    "operations/PLASMA.md",
+    "operations/PUBLIC.md",
+    "operations/deploy-contract.md",
+    "planning/FUTURE.md",
+    "planning/UPGRADES.md",
+    "spec/DECISIONS.md",
+    "spec/SPEC.md",
+    "tools/doc-check/README.md"
+  ],
+  "references": [
+    {
+      "id": "published-vectors",
+      "kind": "vector",
+      "external": {
+        "repository": "Zenoglyphs-VM/zvm-core",
+        "revision": "29e6d9b30be94de3772c850c7a1e9811585a8833",
+        "path": "vectors/vectors.json"
+      },
+      "format": "json",
+      "sha256": "47c1a3dd7ae040e19bdbd5ea7811c95e0d78dafd97fc1e3294761cbe993a5c85",
+      "bytes": 18070,
+      "pointers": [
+        "/version",
+        "/messages",
+        "/l1Info",
+        "/gas",
+        "/forks",
+        "/exchange"
+      ]
+    },
+    {
+      "id": "history-fleet-v1",
+      "kind": "source",
+      "path": "benchmarks/results/FLEET-v1.md",
+      "format": "markdown",
+      "sha256": "de51f3a6eda934f463b38c862acd7502532ce456368fca9a808ce50793b78fcf",
+      "bytes": 8178,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-fleet-v2",
+      "kind": "source",
+      "path": "benchmarks/results/FLEET-v2.md",
+      "format": "markdown",
+      "sha256": "1b15b1da3bf38a19746368b1b9187fbde6c8a459619f81674f0ba4a42d68f59a",
+      "bytes": 8066,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-fleet",
+      "kind": "source",
+      "path": "benchmarks/results/FLEET.md",
+      "format": "markdown",
+      "sha256": "24d0d9cce729f8e4b40f112db37cfcc94c69fb9e90ca6bd02a7801dfbf13e2aa",
+      "bytes": 7796,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-reth-v1",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-reth-v1.md",
+      "format": "markdown",
+      "sha256": "2999a13d9e2dcb48c9c61966ca00e19259a284550cd067586ce36a12762bc3ac",
+      "bytes": 14293,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-reth-v2",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-reth-v2.md",
+      "format": "markdown",
+      "sha256": "da0ad22a4b466e2e91872f38c9d814e383d8d86d2701e1d9a5168b4370cc1104",
+      "bytes": 10669,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-v1-fixed",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-v1-fixed.md",
+      "format": "markdown",
+      "sha256": "2d0e142507bb9ca9f67470ec1f1c7d2ae6fed086c77b540c549f6d206fc1e992",
+      "bytes": 14271,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-v1",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-v1.md",
+      "format": "markdown",
+      "sha256": "91f6a7c5c0f8d2432381ee3b29cc0aa58515e25bc1b9eb883c07262a57e96609",
+      "bytes": 14228,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-v2-fixed",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-v2-fixed.md",
+      "format": "markdown",
+      "sha256": "be5cea46ba4a7bbbb8fae932e30acb658b5850b752b5a992448f4fc89b775327",
+      "bytes": 14215,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results-v2",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS-v2.md",
+      "format": "markdown",
+      "sha256": "b6c9bc7112af9dd0e3cd799a956af140ff9434b35a3f1378110a94070259dd90",
+      "bytes": 14223,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "history-results",
+      "kind": "source",
+      "path": "benchmarks/results/RESULTS.md",
+      "format": "markdown",
+      "sha256": "82152b3e8ba74b6c551e40ccd451d2b68db008338ade46dda94465a385b2e02c",
+      "bytes": 14317,
+      "anchors": [
+        "evidence-status"
+      ]
+    },
+    {
+      "id": "selected-spec",
+      "kind": "spec",
+      "path": "spec/SPEC.md",
+      "format": "markdown",
+      "sha256": "5e87fb91e976cea86c0969dd38a31ef5b1de74fc3828226400dee027766885d3",
+      "bytes": 29855,
+      "anchors": [
+        "11-vectors"
+      ]
+    },
+    {
+      "id": "selected-decisions",
+      "kind": "spec",
+      "path": "spec/DECISIONS.md",
+      "format": "markdown",
+      "sha256": "be76088a42fb492777e3922dcb8b80fd5b4da01e54f34f8579a37d9bccb352f4",
+      "bytes": 113698
+    },
+    {
+      "id": "selected-security-policy",
+      "kind": "source",
+      "path": "SECURITY.md",
+      "format": "markdown",
+      "sha256": "c08a25eb3e7d1664edfb45ca19b3550593e4f092db10624e14564cbf73f0984a",
+      "bytes": 568,
+      "anchors": [
+        "scope"
+      ]
+    },
+    {
+      "id": "selected-upgrade-plan",
+      "kind": "source",
+      "path": "planning/UPGRADES.md",
+      "format": "markdown",
+      "sha256": "569829bc532eecf974713e42fa3566c5cc507299f7c272dfcf7f3e7d21355b78",
+      "bytes": 13585,
+      "anchors": [
+        "open-for-the-operator"
+      ]
+    },
+    {
+      "id": "selected-committee-runbook",
+      "kind": "source",
+      "path": "operations/COMMITTEE.md",
+      "format": "markdown",
+      "sha256": "2c23d0f4ad5539ee615912cb6071c3258cd18a7f12b7de26c78d41c5ec975a0b",
+      "bytes": 16022,
+      "anchors": [
+        "roles"
+      ]
+    },
+    {
+      "id": "proposed-review-roles",
+      "kind": "source",
+      "path": "governance/review-roles.json",
+      "format": "json",
+      "sha256": "77e9eb7907ba5655994786791e57a0c5377a9f07b80813314040269cb243334d",
+      "bytes": 5089,
+      "pointers": [
+        "/schema",
+        "/status",
+        "/authorityEstablished",
+        "/roles",
+        "/reviewRoutes"
+      ]
+    },
+    {
+      "id": "governance-candidate-01",
+      "kind": "source",
+      "path": "governance/DISCLOSURE.md",
+      "format": "markdown",
+      "sha256": "27094baf78e8f09ce582ef5f239e19866efe36bc7d8758e061bf669d7d8dbc2b",
+      "bytes": 2893
+    },
+    {
+      "id": "governance-candidate-02",
+      "kind": "source",
+      "path": "governance/README.md",
+      "format": "markdown",
+      "sha256": "19c389a6145c2929eff24d11f61a2124ec6bdb395119f73d1d44d538d3151ef0",
+      "bytes": 6822
+    },
+    {
+      "id": "governance-candidate-03",
+      "kind": "source",
+      "path": "governance/RELEASE.md",
+      "format": "markdown",
+      "sha256": "d1563378c75774a7df91b0719420b70e599be6bdf323b69f1f9d4ab2320c0491",
+      "bytes": 3985
+    },
+    {
+      "id": "governance-candidate-04",
+      "kind": "source",
+      "path": "governance/organization-defaults/.github/ISSUE_TEMPLATE/bug_report.md",
+      "format": "markdown",
+      "sha256": "cf26ef40b35d3a31f45a85961778f66547946a970d74723946bc41d278109252",
+      "bytes": 910
+    },
+    {
+      "id": "governance-candidate-05",
+      "kind": "source",
+      "path": "governance/organization-defaults/.github/ISSUE_TEMPLATE/config.yml",
+      "format": "bytes",
+      "sha256": "391c73a70b64e37d73e3874b0e626a200c80f2e024734b500b8b7726b9fc0d1d",
+      "bytes": 337
+    },
+    {
+      "id": "governance-candidate-06",
+      "kind": "source",
+      "path": "governance/organization-defaults/.github/ISSUE_TEMPLATE/proposal.md",
+      "format": "markdown",
+      "sha256": "47d7cce409687055486f5ca6da448f2c4901dc513ca5a581ae9719b6aef70e40",
+      "bytes": 1103
+    },
+    {
+      "id": "governance-candidate-07",
+      "kind": "source",
+      "path": "governance/organization-defaults/.github/PULL_REQUEST_TEMPLATE.md",
+      "format": "markdown",
+      "sha256": "51bb5442b33fbb5c67d8b8ad22ecb6540ba05cb31272fb8e8cd37d6542eaf3da",
+      "bytes": 1490
+    },
+    {
+      "id": "governance-candidate-08",
+      "kind": "source",
+      "path": "governance/organization-defaults/CONTRIBUTING.md",
+      "format": "markdown",
+      "sha256": "98c6c491a77476d2951f24a181a090930a922fbe9eb7ab10459bb0c24e82c35f",
+      "bytes": 2371
+    },
+    {
+      "id": "governance-candidate-09",
+      "kind": "source",
+      "path": "governance/organization-defaults/SECURITY.md",
+      "format": "markdown",
+      "sha256": "2031ec6e720314db2f97b3c4a11402bef5a4cdb2c0de438e2497e92af6d766ad",
+      "bytes": 1557
+    },
+    {
+      "id": "governance-candidate-10",
+      "kind": "source",
+      "path": "governance/organization-defaults/SUPPORT.md",
+      "format": "markdown",
+      "sha256": "eb92ccc35fff5d697033950b32d47c9227d6459319dfe6f6371785e43b36f475",
+      "bytes": 1149
+    }
+  ],
+  "comparisons": [],
+  "claims": [
+    {
+      "id": "selected-spec-source",
+      "document": "EVIDENCE.md",
+      "anchor": "current-source-references",
+      "status": "implementation",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "inputs": [
+        "selected-spec",
+        "selected-decisions",
+        "published-vectors"
+      ],
+      "limitations": [
+        "Selected source and encoding bytes only; no execution, semantic conformance or activation proof."
+      ]
+    },
+    {
+      "id": "plans-and-runbooks",
+      "document": "EVIDENCE.md",
+      "anchor": "plans-and-operations",
+      "status": "plan",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "inputs": [],
+      "limitations": [
+        "Proposals and instructions require separate implementation, deployment and operator qualification."
+      ]
+    },
+    {
+      "id": "governance-proposal",
+      "document": "governance/README.md",
+      "anchor": "source-and-authority",
+      "status": "plan",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "inputs": [
+        "selected-security-policy",
+        "selected-upgrade-plan",
+        "selected-committee-runbook",
+        "proposed-review-roles"
+      ],
+      "limitations": [
+        "Proposed role responsibilities and inactive organization-default templates only; no actor assignments, effective enforcement, governance acceptance, disclosure, release or activation authority established."
+      ]
+    },
+    {
+      "id": "authored-governance-candidate-source",
+      "document": "EVIDENCE.md",
+      "anchor": "governance-proposals",
+      "status": "implementation",
+      "sourceRevision": "77bafd31bc13186ea8c6a69d446d33d60abca8f8",
+      "inputs": [
+        "governance-candidate-01",
+        "governance-candidate-02",
+        "governance-candidate-03",
+        "governance-candidate-04",
+        "governance-candidate-05",
+        "governance-candidate-06",
+        "governance-candidate-07",
+        "governance-candidate-08",
+        "governance-candidate-09",
+        "governance-candidate-10",
+        "proposed-review-roles"
+      ],
+      "limitations": [
+        "Authored candidate file-byte correspondence only. The governance and organization-default package remain unadopted; no owner assignment, effective rule enforcement, release/disclosure permission or chain activation is established."
+      ]
+    }
+  ],
+  "benchmarks": [
+    {
+      "id": "history-fleet-v1",
+      "document": "benchmarks/results/FLEET-v1.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-fleet-v2",
+      "document": "benchmarks/results/FLEET-v2.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-fleet",
+      "document": "benchmarks/results/FLEET.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-reth-v1",
+      "document": "benchmarks/results/RESULTS-reth-v1.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-reth-v2",
+      "document": "benchmarks/results/RESULTS-reth-v2.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-v1-fixed",
+      "document": "benchmarks/results/RESULTS-v1-fixed.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-v1",
+      "document": "benchmarks/results/RESULTS-v1.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-v2-fixed",
+      "document": "benchmarks/results/RESULTS-v2-fixed.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results-v2",
+      "document": "benchmarks/results/RESULTS-v2.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    },
+    {
+      "id": "history-results",
+      "document": "benchmarks/results/RESULTS.md",
+      "anchor": "evidence-status",
+      "status": "unavailable",
+      "sourceRevision": "35c5be8a59059a9e1f3aab40c980ef6cd18cf0be",
+      "limitations": [
+        "Historical summary retained at the pinned source; raw run, platform, command and complete output provenance are unavailable in this snapshot.",
+        "This classification neither replays the run nor establishes current performance."
+      ]
+    }
+  ]
+}
